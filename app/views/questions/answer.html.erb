@@ -1,0 +1,20 @@
+<div class="container">
+
+  <h1>Answer</h1>
+
+  <div class="answer">
+    <blockquote>
+      <p>"<%= @question %>"</p>
+      <p><em>- Me</em></p>
+    </blockquote>
+  </div>
+
+  <div class="answer">
+    <blockquote>
+      <p><%= @answer %></p>
+      <p><em>- Your coach</em></p>
+    </blockquote>
+  </div>
+
+  <%= link_to 'ask another question', ask_path %>
+</div>
